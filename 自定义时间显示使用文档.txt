@@ -1,0 +1,12 @@
+1、导入头文件 #import "ZWWDate.h"
+
+2、初始化 ZWWDate *zwwData = [[ZWWDate alloc] init];
+
+3、使用方法 ：[zwwData typeOfDay:@"yyyy-MM-dd" and:@"2016-06-16"] 返回类型为字符串
+
+             dateFormat :类似于@"yyyy-MM-dd",
+                             @"YYYY-MM-dd HH:mm:ss"
+                             @"YYYY/MM/dd HH:mm"
+             可自行定义
+             dateString :是dateFormat类型的日期string ，如：@"2016-06-12"
+
